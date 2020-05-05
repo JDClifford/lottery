@@ -1,0 +1,27 @@
+.ball {
+	background-color: #8dffcd;
+	display: inline-block;
+	margin: .5em .3em;
+	border-radius: 5em;
+	height: 130px;
+	width: 130px;
+	border: #f0f8ff solid 5px;
+	animation-name: spin;
+	animation-duration: 2000ms;
+	animation-iteration-count: 2;
+	animation-timing-function: ease-in-out;
+}
+
+.ball h2 {
+	font-size: 3em;
+	font-family: 'Roboto', sans-serif;
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}

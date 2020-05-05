@@ -1,0 +1,20 @@
+.Lottery button {
+	width: 10em;
+	height: 2em;
+	border-radius: 1em;
+	background-color: #8dffcd;
+	margin-top: 1em;
+	font-size: 3em;
+	border: #f0f8ff solid 5px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.Lottery button:hover {
+	background-color: #8dedcd;
+}
+
+.Lottery h1 {
+	color: black;
+	font-size: 5em;
+	font-family: 'Roboto', sans-serif;
+}
